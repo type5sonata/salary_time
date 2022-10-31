@@ -11,8 +11,28 @@ body{
   font-family: 'Arial';
 }
 
+h1{
+    font-size: 90px;
+    text-align: center;
+}
+
+p{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
 .formLabel{
     margin-bottom:30px;
+    font-size: medium;
+}
+
+input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: large;
+
 }
 
 .container{
