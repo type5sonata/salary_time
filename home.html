@@ -6,8 +6,14 @@
 
     </head>
     <body>
-        <p>Here comes your salary</p>
-        <p>Here comes how much you've worked today</p>
+        <div class="container">
+            <form class='salaryForm'>
+                <label class='formLabel' for="salaryInput">How much do you make per hour?</label><br>
+                <input type="text" id="salaryInput" name="salaryInput">
+                <!-- <input type="submit" value="Submit"> -->
+                <!-- <button name="submit" id='submit' onclick="setSalary(document.getElementById('salaryInput').value)">Set salary</button> -->
+            </form>
+        </div>
         <div class="container">
             <div class="timerDisplay">
                 00 : 00 : 00 : 000
@@ -19,6 +25,14 @@
             </div>
 
         </div>
+        
+        <div class="container">
+            <div class="salaryDisplay">
+                £0.00
+            </div>
+        </div>
+
+
         <script src="stopwatch.js"></script>
     </body>
 </html>
